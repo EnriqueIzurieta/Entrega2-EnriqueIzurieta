@@ -29,7 +29,7 @@ body{
     background-color: #152B3F;
     /* padding-left: 4rem;
     padding-right: 4rem; */
-    padding-top: 1rem;
+    padding-top: 0rem;
     padding-bottom: 1rem;
 }
 
@@ -37,6 +37,8 @@ main section h2 {
   color: #D9C0A4;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 
 main .contactSection div h2 {
@@ -47,7 +49,8 @@ main section h1 {
     color: #D9C0A4;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-
+    font-weight: 700;
+    font-size: 1.8rem;
 }
 
 main section p {
@@ -96,7 +99,7 @@ nav {
 header {
   position: sticky;
   top: 0;
-  padding-top: 0.7rem;
+  padding-top: 0rem;
   padding-bottom: 0.7rem;
   background-color: #152B3F;
 }
@@ -122,7 +125,7 @@ fieldset input {
   margin-top:0.5em;
   margin-bottom: 0.5rem;
   width: 100%;
-  height: 2rem;
+  height: 3rem;
   padding: 0.2rem;
   border-radius: 4rem;
   border: transparent;
@@ -131,12 +134,12 @@ fieldset input {
 .contactCTA {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-right: 1.5rem;
+  padding-right: 1.5rem !important;
   margin-top: 0.5rem;
-  padding-left: 1.5rem;
+  padding-left: 1.5rem !important;
   background-color: #FFAD0D;
   text-decoration: none;
-  color: #152B3F;
+  color: #152B3F !important;
   border-radius: 1rem;
   border: 0rem;
   width: 100%;
@@ -171,9 +174,9 @@ fieldset input {
 .secondaryButton {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-right: 1.5rem;
+  padding-right: 1.5rem !important;
   margin-top: 0.5rem;
-  padding-left: 1.5rem;
+  padding-left: 1.5rem !important;
   text-decoration: none;
   color: #D9C0A4;
   border-radius: 1rem;
@@ -254,7 +257,7 @@ main .treeCardsSection .mainCard img {
   }
   nav ul li{
     display: block;
-    padding-top: 2rem;
+    padding-top: 0rem;
   }
   .treeCardsSection {
     grid-template-columns: 1fr;
@@ -263,5 +266,41 @@ main .treeCardsSection .mainCard img {
   .formSection {
     width: 100%;
   }
+}
 
+/* Cambios de bootstrap */ 
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.container-fluid {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.navbar-nav .nav-link.active {
+  color: #D9C0A4 !important;
+}
+
+.nav-link {
+  color: #D9C0A4;
+}
+
+.nav-link:hover{
+  color: white !important;
+}
+
+.navbar-nav {
+  align-items: center;
+  gap: 1rem;
+  color: #D9C0A4 !important;
+}
+
+.bg-body-tertiary {
+  background-color: #152B3F !important;
+}
+
+.navbar-toggler{
+background-color: #FFAD0D;
 }
