@@ -244,6 +244,14 @@ main .treeCardsSection .mainCard img {
   justify-content: center;  
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section .divmitad {
+  width: 50%;
+}
 
 @media (max-width: 600px) {
   .flexSection {
@@ -266,6 +274,11 @@ main .treeCardsSection .mainCard img {
   .formSection {
     width: 100%;
   }
+  
+  section .divmitad {
+  width: 100%;
+}
+
 }
 
 /* Cambios de bootstrap */ 
