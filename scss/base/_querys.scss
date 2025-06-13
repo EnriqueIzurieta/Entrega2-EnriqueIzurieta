@@ -1,0 +1,79 @@
+/* media querys */
+
+@media (max-width: 600px) {
+
+    main {
+
+        /* sin important el 1fr no se aplicaba*/
+        .treeCardsSection {
+            grid-template-columns: 1fr !important;
+            gap: 0.5rem;
+        }
+
+        .formContainer {
+            .formSection {
+                width: 100%;
+            }
+        }
+
+        .flexSection {
+            flex-direction: column;
+                .divmitad {
+                width: 100%;
+            }
+        }
+
+        .contactSection {
+            flex-direction: column;
+        }
+    }
+
+    header {
+        nav {
+            flex-wrap: wrap;
+
+            ul {
+                li {
+                    display: block;
+                    padding-top: 0rem;
+                }
+            }
+        }
+    }
+
+    /*
+    .flexSection {
+        flex-direction: column;
+    } 
+
+    .contactSection {
+        flex-direction: column;
+    } */
+
+    /*
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        display: block;
+        padding-top: 0rem;
+    } */
+
+    /*
+    .treeCardsSection {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    } */
+    /*
+    .formSection {
+        width: 100%;
+    } */
+
+
+    /*
+    section .divmitad {
+        width: 100%;
+    } */
+
+}

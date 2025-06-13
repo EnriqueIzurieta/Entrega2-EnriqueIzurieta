@@ -24,7 +24,7 @@
 
 /*Aquí termina la importación de la tipografía*/
 
-body{
+body{ 
     font-family: Syncopate;
     background-color: #152B3F;
     /* padding-left: 4rem;
@@ -33,7 +33,7 @@ body{
     padding-bottom: 1rem;
 }
 
-main section h2 {
+main section h2 { /* pasada a sass */
   color: #D9C0A4;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -41,11 +41,11 @@ main section h2 {
   font-size: 1.6rem;
 }
 
-main .contactSection div h2 {
+main .contactSection div h2 { /* pasada a sass */
   color: #152B3F;
 }
 
-main section h1 {
+main section h1 { /* pasada a sass */
     color: #D9C0A4;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -53,13 +53,13 @@ main section h1 {
     font-size: 1.8rem;
 }
 
-main section p {
+main section p { /* pasada a sass */
     color: #D9C0A4;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
 
-.mainButton{
+.mainButton{ /* pasada a sass */
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-right: 1.5rem;
@@ -73,22 +73,22 @@ main section p {
     border: none;
     font-weight: 700;
 }
-footer p{
+footer p{ /* pasada a sass */
   color: #D9C0A4;
 }
 
-section ul li {
+section ul li { /* pasada a sass */
   color: #D9C0A4;
 }
 
-nav ul li {
+nav ul li { /* pasada a sass */
   list-style: none;
   font-weight: 700;
   display: inline-block;
   font-size: 0.8rem;
 }
 
-nav {
+nav { /* pasada a sass */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,7 +96,7 @@ nav {
   padding-right: 2rem;
 }
 
-header {
+header { /* pasada a sass */
   position: sticky;
   top: 0;
   padding-top: 0rem;
@@ -104,7 +104,7 @@ header {
   background-color: #152B3F;
 }
 
-nav ul li a {
+nav ul li a { /* pasada a sass */
   color: #D9C0A4;
 }
 
@@ -115,13 +115,13 @@ img {
 }
 */
 
-fieldset {
+fieldset { /* pasada a sass */
   color: #D9C0A4;
   border: transparent;
   font-weight: 700;
 }
 
-fieldset input {
+fieldset input { /* pasada a sass */
   margin-top:0.5em;
   margin-bottom: 0.5rem;
   width: 100%;
@@ -131,7 +131,7 @@ fieldset input {
   border: transparent;
 }
 
-.contactCTA {
+.contactCTA { /* pasada a sass */
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 1.5rem !important;
@@ -148,7 +148,7 @@ fieldset input {
   font-weight: 700;
 }
 
-.cardButton {
+.cardButton { /* pasada a sass */
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 1.5rem;
@@ -165,13 +165,13 @@ fieldset input {
   font-weight: 700;
 }
 
-.mainCard {
+.mainCard { /* pasada a sass */
   border: #FFAD0D solid 0.3rem;
   padding: 2rem;
   border-radius: 2rem;
 }
 
-.secondaryButton {
+.secondaryButton { /* pasada a sass */
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 1.5rem !important;
@@ -186,7 +186,7 @@ fieldset input {
   font-weight: 700;
 }
 
-.contactSection {
+.contactSection { /* pasada a sass */
   background-color: white;
   color: #152B3F;
   padding: 2rem;
@@ -196,12 +196,12 @@ fieldset input {
   justify-content: space-around;
 }
 
-section {
+section { /* pasada a sass */
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-main .flexSection {
+main .flexSection { /* pasada a sass */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -210,7 +210,7 @@ main .flexSection {
   gap: 2rem;
 }
 
-.footerSection {
+.footerSection { /* pasada a sass */
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -220,7 +220,7 @@ main .flexSection {
   margin-bottom: 1rem;
 }
 
-.treeCardsSection {
+.treeCardsSection { /* pasada a sass */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -229,27 +229,27 @@ main .flexSection {
   padding-bottom: 2rem;
 }
 
-main .treeCardsSection .mainCard img {
+main .treeCardsSection .mainCard img { /* pasada a sass */
   width: 100%;
 }
 
-.formSection {
+.formSection { /* pasada a sass */
   width: 50%;
   display: flex;
   flex-direction: column;
 }
 
-.formContainer {
+.formContainer { /* pasada a sass */
   display: flex;
   justify-content: center;  
 }
 
-img {
+img { /* pasada a sass */
   max-width: 100%;
   height: auto;
 }
 
-section .divmitad {
+section .divmitad { /* pasada a sass */
   width: 50%;
 }
 
@@ -281,7 +281,7 @@ section .divmitad {
 
 }
 
-/* Cambios de bootstrap */ 
+/* Cambios de bootstrap, ya pase todo esto a scss */ 
 
 .navbar-collapse {
   flex-grow: 0;
