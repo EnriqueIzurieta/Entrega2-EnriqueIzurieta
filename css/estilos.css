@@ -39,6 +39,10 @@ body {
     grid-template-columns: 1fr !important;
     gap: 0.5rem;
   }
+  main .treeCardsSection .mainCard {
+    padding: 1.2rem !important;
+    max-width: 95% !important;
+  }
   main .formContainer .formSection {
     width: 100%;
   }
@@ -50,6 +54,9 @@ body {
   }
   main .contactSection {
     flex-direction: column;
+  }
+  main section h2 {
+    font-size: 1.5rem;
   }
   header nav {
     flex-wrap: wrap;

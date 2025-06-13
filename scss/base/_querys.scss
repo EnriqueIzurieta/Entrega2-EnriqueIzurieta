@@ -8,6 +8,10 @@
         .treeCardsSection {
             grid-template-columns: 1fr !important;
             gap: 0.5rem;
+            .mainCard {
+                padding: 1.2rem !important;
+                max-width: 95% !important;
+            }
         }
 
         .formContainer {
@@ -25,6 +29,11 @@
 
         .contactSection {
             flex-direction: column;
+        }
+        section {
+            h2 {
+                font-size: 1.5rem;
+            }
         }
     }
 
