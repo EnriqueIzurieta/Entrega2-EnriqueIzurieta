@@ -43,6 +43,9 @@ body {
     padding: 1.2rem !important;
     max-width: 95% !important;
   }
+  main .treeCardsSection .mainCard .cardButton {
+    font-size: 0.8rem;
+  }
   main .formContainer .formSection {
     width: 100%;
   }
